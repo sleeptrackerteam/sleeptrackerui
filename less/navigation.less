@@ -1,0 +1,67 @@
+// Navigation code here
+.main-navigation {
+    width: 100%;
+    display: flex;
+
+    @media @phone {
+    justify-content: center; 
+    flex-wrap: wrap;
+    }
+
+    .logo {
+    margin: 28px 0 0 91px; 
+
+        @media @phone {
+        margin: 20px 0;  
+        order: -1;
+        display: block;
+        }
+    }
+}
+
+
+
+.nav {
+    margin-top: 40px; 
+    width: 610px;
+    justify-content: space-between;
+    display: flex;
+
+    @media @phone {
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+      }
+
+    a {
+    text-decoration: none;
+    color: #b0b0b0;
+    font-size: 2rem;
+
+        @media @phone {
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 20px;
+        border-bottom: 1px solid gray;
+        }
+    }
+
+    a:first-child {
+        @media @phone {
+        border-top: 1px solid gray;    
+        }
+    }
+
+    a:hover {
+    text-decoration: underline;
+    color: black;
+
+        @media @phone {
+        background: #F6AC46; 
+        }
+    }
+}
+
