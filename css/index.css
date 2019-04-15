@@ -137,14 +137,14 @@ body {
   background-color: #14225B;
   color: white;
   height: 100%;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Fascinate Inline', cursive;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
   margin-bottom: 15px;
 }
@@ -170,7 +170,7 @@ h5 {
   }
 }
 .main-navigation .logo {
-  margin: 28px 0 0 91px;
+  margin: 25px 10px 0 90px;
 }
 @media ( max-width: 500px) {
   .main-navigation .logo {
@@ -205,12 +205,12 @@ h5 {
     text-align: center;
     padding: 20px 0;
     font-size: 20px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #F6AC46;
   }
 }
 @media ( max-width: 500px) {
   .nav a:first-child {
-    border-top: 1px solid gray;
+    border-top: 1px solid #F6AC46;
   }
 }
 .nav a:hover {
@@ -268,8 +268,8 @@ h5 {
   color: white;
 }
 .main-content {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px solid #F6AC46;
+  border-bottom: 2px solid #F6AC46;
   margin: 75px 0 35px 0;
   padding: 35px 0;
   font-size: 16px;
@@ -289,6 +289,9 @@ h5 {
     flex-direction: column;
     height: 300px;
   }
+}
+.main-content .top-content p {
+  padding-right: 20px;
 }
 .main-content .middle-img {
   display: block;

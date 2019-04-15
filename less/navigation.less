@@ -2,6 +2,8 @@
 .main-navigation {
     width: 100%;
     display: flex;
+    
+    
 
     @media @phone {
     justify-content: center; 
@@ -9,7 +11,9 @@
     }
 
     .logo {
-    margin: 28px 0 0 91px; 
+    margin: 25px 10px 0 90px; 
+    
+    
 
         @media @phone {
         margin: 20px 0;  
@@ -45,13 +49,13 @@
         text-align: center;
         padding: 20px 0;
         font-size: 20px;
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid @Orange; 
         }
     }
 
     a:first-child {
         @media @phone {
-        border-top: 1px solid gray;    
+        border-top: 1px solid @Orange;  
         }
     }
 
@@ -60,7 +64,7 @@
     color: black;
 
         @media @phone {
-        background: #F6AC46; 
+        background: @Orange; 
         }
     }
 }
