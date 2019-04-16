@@ -224,25 +224,25 @@ h5 {
 }
 .cta {
   display: flex;
-  margin-top: 72px;
+  margin-top: 7.2rem;
   justify-content: center;
 }
 @media ( max-width: 500px) {
   .cta {
-    margin-top: 50px;
+    margin-top: 5rem;
     flex-flow: column;
     align-items: center;
   }
 }
 .cta .cta-text {
-  font-size: 72px;
+  font-size: 7.2rem;
   text-align: center;
-  letter-spacing: 5px;
+  letter-spacing: 0.5rem;
   display: flex;
   justify-content: center;
   flex-flow: column;
   align-items: center;
-  margin: 0 82px 0 0;
+  margin: 0 8.2rem 0 0;
 }
 @media ( max-width: 500px) {
   .cta .cta-text {
@@ -257,11 +257,11 @@ h5 {
   font-size: 16px;
   font-weight: bolder;
   background: #F6AC46;
-  width: 175px;
-  height: 50px;
-  margin-top: 10px;
+  width: 17.5rem;
+  height: 5rem;
+  margin-top: 1rem;
   cursor: pointer;
-  border-radius: 13px;
+  border-radius: 1.3rem;
 }
 .cta .cta-text button:hover {
   background: black;
@@ -272,8 +272,8 @@ h5 {
   border-bottom: 2px solid #F6AC46;
   margin: 75px 0 35px 0;
   padding: 35px 0;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
 }
 @media ( max-width: 500px) {
   .main-content .text-content {
@@ -291,7 +291,7 @@ h5 {
   }
 }
 .main-content .top-content p {
-  padding-right: 20px;
+  padding-right: 2rem;
 }
 .main-content .middle-img {
   display: block;
@@ -311,4 +311,16 @@ h5 {
 }
 .main-content .bottom-content p {
   padding-right: 20px;
+}
+.team {
+  border-top: 2px solid #F6AC46;
+  border-bottom: 2px solid #F6AC46;
+  margin: 7.5rem 0 3.5rem 0;
+  padding: 3.5rem 0;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+}
+.team .text-content {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
