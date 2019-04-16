@@ -1,0 +1,51 @@
+.accordion {
+
+  .panel {
+    margin-bottom: 3.5rem;
+    padding: 30px;
+    border: 3px solid @Orange;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+
+    p {
+      animation-duration: 1s;
+      animation-name: slidein;
+    }
+    
+    @keyframes slidein {
+      from {
+        margin-left: 100%;
+        width: 300%; 
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    }
+
+    .panel-bar {
+      display: flex;
+      justify-content: space-between;
+
+      .panel-buttons {
+
+        button {
+          cursor: pointer;
+        }
+
+        .hide-btn {
+          display: none;
+        }
+      }
+    }
+
+    .panel-content {
+      display: none;
+    }
+
+    .toggle-on {
+      display: block;
+    }
+  }
+}
