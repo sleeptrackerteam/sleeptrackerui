@@ -4,6 +4,10 @@
   margin-top: 7.2rem;
   justify-content: center;
 
+  @media @Tablet {
+    margin-left: 50px;
+  }
+
   @media @phone {
     margin-top: 5.0rem;
     flex-flow: column;
@@ -65,6 +69,10 @@
   font-size: 1.6rem;
   line-height: 1.8rem;
 
+  @media @Tablet {
+    margin: 75px 20px 35px;
+  }
+
   .text-content {
     @media @phone {
       margin: 0; 
@@ -77,7 +85,7 @@
     @media @phone {
       justify-content: space-around;
       flex-direction: column;
-      height: 300px;
+      height: 100%;
     }
 
     p {
@@ -107,6 +115,11 @@
   }
 }
 //Main
+.secondary {
+    @media @Tablet {
+      margin: 75px 20px 35px;
+    }
+  }
 
 
   .panel-btn-open  {

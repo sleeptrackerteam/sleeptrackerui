@@ -3,7 +3,10 @@
     width: 100%;
     display: flex;
     
-    
+    @media @Tablet {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
     @media @phone {
     justify-content: center; 
@@ -13,7 +16,11 @@
     .logo {
     margin: 25px 10px 0 90px; 
     
-    
+        @media @Tablet {
+            order: -1;
+            display: block;
+            margin: 30px auto 0; 
+        }
 
         @media @phone {
         margin: 20px 0;  
