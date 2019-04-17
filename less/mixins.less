@@ -1,28 +1,13 @@
-// Mixins Here
+.button-creator (@margin, @width){
+  margin-top: @margin;
+  border: 2px double black;
+  background: @Orange;
+  width: @width;
+  cursor: pointer;
+  border-radius: 1.3rem;
 
-// .button-creator(@width, @height, @btn-bg-color, white, @font-size) {
-//     border-radius: 5px;
-//     .center;
-//     width: @width;
-//     height: @height;
-//     background-color: @btn-bg-color;
-//     color: white;
-//     cursor: pointer;
-//     font-size: @font-size;
-//     font-weight: bold;
-  
-//     @media @phone {
-//       width: 100%;
-//     }
-    
-//     &:hover {
-//       background: white;
-//       color: @btn-bg-color;
-//     }
-//   }
-
-//   .center() {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//   }
+  &:hover {
+    background: black;
+    color: white;
+    }
+}
