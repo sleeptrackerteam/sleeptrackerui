@@ -378,6 +378,11 @@ h5 {
   background: black;
   color: white;
 }
+#first {
+  margin: 1rem;
+  font-weight: bold;
+  font-style: italic;
+}
 .accordion .panel {
   margin-bottom: 3.5rem;
   padding: 30px;
