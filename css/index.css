@@ -282,14 +282,6 @@ h5 {
     transform: translateY(-15px);
   }
 }
-@media ( max-width: 500px) {
-  .cta .cta-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-  }
-}
 .cta .cta-text button {
   border: 2px double black;
   font-size: 16px;
